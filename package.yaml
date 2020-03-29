@@ -1,0 +1,33 @@
+name:                random-wrapper
+version:             0.1.0.0
+github:              "QuietJoon/random-wrapper"
+license:             BSD3
+author:              "YongJoon Joe"
+maintainer:          "developer@yongjoon.net"
+copyright:           "2017-2020 YongJoon Joe"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Wrapper to switch among random libraries simply
+category:            Random
+description:         Please see the README on GitHub at <https://github.com/QuietJoon/random-wrapper#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- splitmix
+
+library:
+  source-dirs: src
+
+tests:
+  random-wrapper-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - random-wrapper
