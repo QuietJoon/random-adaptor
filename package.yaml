@@ -10,7 +10,7 @@ extra-source-files:
 - README.md
 - ChangeLog.md
 
-synopsis:            Wrapper to switch among random libraries simply
+synopsis:            Wrapper to switch among random packages simply
 category:            Random
 description:         Please see the README on GitHub at <https://github.com/QuietJoon/random-wrapper#readme>
 
