@@ -1,7 +1,7 @@
-random-wrapper
+random-adaptor
 ====
 
-Wrapper to switch among random packages simply.
+Adaptor to switch among random packages simply.
 
 ## Supported random packages
 
@@ -15,10 +15,10 @@ Wrapper to switch among random packages simply.
 * tf-random
 * random
 
-## Why do I need wrapper series?
+## Why do I need adaptor series?
 
 Not only for unified function interface, but for benchmarking and comparing the performance of each libraries.
 
 When you write a comparing benchmark, you may not need this.
-However, when you write a real application, you may want to wrapper which helps easy switching among the packages.
+However, when you write a real application, you may want to adaptor which helps easy switching among the packages.
 

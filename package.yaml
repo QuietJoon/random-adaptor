@@ -1,6 +1,6 @@
-name:                random-wrapper
+name:                random-adaptor
 version:             0.1.0.0
-github:              "QuietJoon/random-wrapper"
+github:              "QuietJoon/random-adaptor"
 license:             BSD3
 author:              "YongJoon Joe"
 maintainer:          "developer@yongjoon.net"
@@ -10,9 +10,9 @@ extra-source-files:
 - README.md
 - ChangeLog.md
 
-synopsis:            Wrapper to switch among random packages simply
+synopsis:            Adaptor to switch among random packages simply
 category:            Random
-description:         Please see the README on GitHub at <https://github.com/QuietJoon/random-wrapper#readme>
+description:         Please see the README on GitHub at <https://github.com/QuietJoon/random-adaptor#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -22,7 +22,7 @@ library:
   source-dirs: src
 
 tests:
-  random-wrapper-test:
+  random-adaptor-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -30,4 +30,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - random-wrapper
+    - random-adaptor

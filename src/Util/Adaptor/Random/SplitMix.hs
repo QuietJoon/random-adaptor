@@ -1,4 +1,4 @@
-module Util.Wrapper.Random.SplitMix where
+module Util.Adaptor.Random.SplitMix where
 
 
 import           Data.Bifunctor

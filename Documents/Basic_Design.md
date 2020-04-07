@@ -9,4 +9,4 @@ Therefore, this plan would not implemented in near future.
 
 ## Self structure
 
-Build monad adapters and distribution wrapper based on basic functions provided by this package.
+Build monad adapters and distribution adaptor based on basic functions provided by this package.

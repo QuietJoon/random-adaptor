@@ -1,4 +1,4 @@
-Changelog for random-wrapper
+Changelog for random-adaptor
 ====
 
 ## Unreleased changes
@@ -10,11 +10,17 @@ Changelog for random-wrapper
   * `sfmt`
   * `tf-random`
   * Traditional `random`
-* Add distribution wrapper
+* Add distribution adaptor
 * Add monad adapter
 
 ## Change
 * Redesign with Backpack
+
+
+## 0.2.0.0 -- 2020-04-07
+
+## Changed
+* Change package and module name from Wrapper to Adaptor
 
 
 ## 0.1.0.0 -- 2020-03-28
